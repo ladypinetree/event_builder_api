@@ -5,6 +5,6 @@ class Event < ApplicationRecord
     validates :user, presence: true
     validates :event_title, presence: true
     validates :event_type, presence: true
-    # might not require type
     validates :event_date, presence: true
+
 end

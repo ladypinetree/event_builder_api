@@ -8,10 +8,10 @@ curl "${API}${URL_PATH}" \
   --request PATCH \
   --header "Content-Type: application/json" \
     --header "Authorization: Token token=$TOKEN" \
-  --data '{
-    "event": {
-      "event_title":"'"${EVENT_TITLE}"'",
-      "event_type":"'"${EVENT_TYPE}"'",
+    --data '{
+      "event": {
+      "event_title": "'"${EVENT_TITLE}"'",
+      "event_type": "'"${EVENT_TYPE}"'",
       "event_date": "'"${EVENT_DATE}"'"
     }
   }'
