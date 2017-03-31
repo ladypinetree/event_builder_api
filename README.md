@@ -77,14 +77,16 @@ this.route('edit', { path: '/events/:event_id/edit' });
 - Allow users to save to do items to Google calendar.
 - Allow users to customize event listing appearance.
 
-This is the link to me User Stories, ERDs and Wireframes : https://www.evernote.com/l/AozltvpNfYJC6586hfKSEEPUxX_zC9EA1u8
+This is the link to me User Stories, ERDs and Wireframes :
+https://www.evernote.com/l/AozltvpNfYJC6586hfKSEEPUxX_zC9EA1u8
 This is my app deployment:
 https://ladypinetree.github.io/event-builder/
 This is my link to the back end:
 https://fierce-thicket-93557.herokuapp.com/
 Here is the link to the front end Github:
 https://github.com/ladypinetree/event-builder
-Here is the link to the back end Github: https://github.com/ladypinetree/event_builder_api
+Here is the link to the back end Github:
+https://github.com/ladypinetree/event_builder_api
 
 Find my on LinkedIn:
 https://www.linkedin.com/in/maurapine/
