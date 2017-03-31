@@ -1,15 +1,15 @@
-class EventsController < OpenReadController
+class EventsController < ProtectedController
   before_action :set_event, only: [:update, :destroy]
 
   # GET /events
   def index
-    @events = Event.all
+    @events = current_user.events.all
     render json: @events
   end
 
   # GET /events/1
   def show
-    render json: Event.find(params[:id])
+    render json: current_user.events.find(params[:id])
   end
 
   # POST /events
