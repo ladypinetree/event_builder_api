@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170327194441) do
+ActiveRecord::Schema.define(version: 20170425173920) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,26 @@ ActiveRecord::Schema.define(version: 20170327194441) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "user_id"
+    t.string   "todo1"
+    t.string   "todo2"
+    t.string   "todo3"
+    t.string   "todo4"
+    t.string   "todo5"
+    t.string   "todo6"
+    t.string   "todo7"
+    t.string   "todo8"
+    t.string   "todo9"
+    t.string   "todo10"
+    t.string   "todo11"
+    t.string   "todo12"
+    t.string   "todo13"
+    t.string   "todo14"
+    t.string   "todo15"
+    t.string   "todo16"
+    t.string   "todo17"
+    t.string   "todo18"
+    t.string   "todo19"
+    t.string   "todo20"
     t.index ["user_id"], name: "index_events_on_user_id", using: :btree
   end
 

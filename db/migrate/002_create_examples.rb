@@ -4,7 +4,6 @@ class CreateExamples < ActiveRecord::Migration
     create_table :examples do |t|
       t.text :text, null: false
       t.references :user, index: true, foreign_key: true, null: false
-
       t.timestamps null: false
     end
   end
